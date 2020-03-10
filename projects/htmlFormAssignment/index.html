@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+	</head>
+	<body>
+		<h1>Register</h1>
+		<form>
+			<label for="firstName">First Name:</label>
+			<input type="text" name="firstName" id="firstName" placeholder="John" required>
+			<label for="lastName">Last Name:</label>
+			<input type="text" name="lastName" id="lastName" placeholder="Smith" required><br>
+
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="male" value="male">
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="other">Other</label>
+			<input type="radio" name="gender" id="other" value="other"><br>
+
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" required placeholder="your email">
+
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" placeholder="your password" pattern=".{5,10}" required title="5 to 10 characters">
+			<!-- The required attribute is also needed, otherwise an input field with an empty value will be excluded from constraint validation. -->
+			<br>
+
+			Birthday:
+			<select name="birthMonth">
+				<option value="">Month</option>
+				<option value="jan">January</option>
+				<option value="feb">February</option>
+				<option value="mar">March</option>
+				<option value="apr">April</option>
+				<option value="may">May</option>
+			</select>
+			<select name="birthDate">
+				<option value="">Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+			<select name="birthYear">
+				<option value="">Year</option>
+				<option>1993</option>
+				<option>1994</option>
+				<option>1995</option>
+				<option>1996</option>
+				<option>1997</option>
+			</select><br>
+
+			<label for="agree">I agree to the terms and conditions</label>
+			<input type="checkbox" name="agree" id="agree"><br>
+
+			<input type="submit">
+
+		</form>
+	</body>
+</html>
