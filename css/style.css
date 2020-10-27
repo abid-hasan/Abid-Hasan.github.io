@@ -1269,7 +1269,7 @@ footer .credits a {
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .card-deck {
     grid-template-columns: repeat(3, 1fr);
   }
