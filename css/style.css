@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -1258,4 +1262,19 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+
+.card-deck {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .card-deck {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.border-wide {
+  border-width: 2rem !important;
 }
