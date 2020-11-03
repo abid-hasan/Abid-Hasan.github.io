@@ -1275,6 +1275,6 @@ footer .credits a {
   }
 }
 
-.border-wide {
-  border-width: 2rem !important;
+.project-border {
+  box-shadow: 5px 5px 20px gray;
 }
