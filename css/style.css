@@ -1279,3 +1279,7 @@ footer .credits a {
   box-shadow: 5px 5px 20px gray;
   border-radius: 5px !important;
 }
+
+.card-header {
+  font-weight: bold;
+}
