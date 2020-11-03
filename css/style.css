@@ -1277,4 +1277,5 @@ footer .credits a {
 
 .project-border {
   box-shadow: 5px 5px 20px gray;
+  border-radius: 5px !important;
 }
